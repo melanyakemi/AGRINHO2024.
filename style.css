@@ -1,37 +1,37 @@
 body{
-    width:100%;/*comprimento*/
-    background-color: rgb(132, 135, 137);/*Cor de fundo*/
+    width:100%;
+    background-color: rgb(121, 96, 150);
 
 }
 
 header{
-    display: flex;/* muda a disposição para horizontal*/
-    justify-content: space-between;/* coloca os elementos nos extremos do container*/
-    background-color: rgb(222, 168, 202);/*Cor de fundo*/
-    padding: 20px;/*espaçamento interno do elementos*/
-    align-items: center;/*Alinhamento vertical dos elementos*/
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 255, 140);
+    padding: 20px;
+    align-items: center;
 }
 
 
 .cabecalho_imagem{
 
-    width: 200px;/*comprimento*/
-    height: 200px;/*Altura*/
-    border-radius: 50%;/*arredonda a borda nesse caso deica a imagem redonda*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 
 }
 
 .cabecalho_menu-listaitem{
-    display: inline;/* muda a disposição para horizontal*/
-    text-transform: uppercase;/* deixa as letras maiúsculas*/
-    margin-left: 20px;/* espaçamento externos a esquerda*/
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .sobre{
-    display: flex;/* muda a disposição para horizontal*/
-    justify-content: center;/*Alinhamento horizontal dos elementos*/
-    align-items: center;/*Alinhamento vertical dos elementos*/
-    padding: 20px;/*espaçamento interno do elementos*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .sobre_imagem{
@@ -41,18 +41,18 @@ header{
 }
 
 .sobre_texto{
-  text-align: justify;/*justifica o texto*/
+  text-align: justify;
   width: 400px ;  
 }
 
 .elementos{
 display: flex;
-flex-wrap: wrap;/*faz com que o elementos que quebrem a linha*/
+flex-wrap: wrap;
 
 }
 
 .container{
- border: 2px solid black; /*coloca uma borda preta solida de 2 pixel*/
+ border: 2px solid black;
  padding: 20px;
  text-align: center;
 }
